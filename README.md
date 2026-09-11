@@ -4,8 +4,9 @@ GWO 内容包的 Windows 桌面制作工作台。本仓库提供安装版、免�
 
 [下载最新版本](https://github.com/Sgr792/gwo-editor-releases/releases/latest)
 
-## 0.3.1
+## 0.4.0
 
+- 按项目、武器、配件、弹药、资源分区导航；可调宽和收起的两侧面板、专注预览及紧凑窗口布局。
 - 配置表单与 JSON、分类参数编辑、资源补全和模板复制。
 - 默认及自选配件装配、父子依赖、Blender 安装点只读查看；高级区可手动归零已有配置偏移。
 - 第一人称与自由视角、Steve/Alex 手臂和动画预览。
@@ -19,7 +20,7 @@ GWO 内容包的 Windows 桌面制作工作台。本仓库提供安装版、免�
 
 ## 使用
 
-完整解压 `GWO-Editor-0.3.1-Portable.zip`，双击 `GWO 内容编辑器.exe`。请保留 DLL、resources 和 locales。打开包含 pack.mcmeta 的内容包，在右侧“工作台”切换新增工具。保存有历史副本，并检查外部文件修改。
+完整解压 `GWO-Editor-0.4.0-Portable.zip`，双击 `GWO 内容编辑器.exe`。请保留 DLL、resources 和 locales。打开包含 pack.mcmeta 的内容包，在左侧选择内容分类，在右侧“工作台”直接切换工具。保存有历史副本，并检查外部文件修改。
 
 “设置 / 更新”可下载并更新安装版或免安装版。更新清单使用 Ed25519 签名，文件使用 SHA-256 校验；免安装更新失败时尝试回退。更新不替换用户内容包。此签名不等同于 Windows Authenticode。
 
